@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "4.1"
+  - "4.0"
+  - "0.12"
+  - "0.11"
+
+services:
+  - mongodb
+
+before_script:
+  - npm install -g jasmine-node
+
+
+script:
+  - jasmine-node beer_song_test.spec.js
