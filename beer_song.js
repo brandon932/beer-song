@@ -28,7 +28,7 @@ Beer.prototype.sing= function(start, last){
   var string = [];
 
 while(num >= end){
-    console.log(Beer.prototype.verse(num));
+    // console.log(Beer.prototype.verse(num));
     string.push(Beer.prototype.verse(num));
     num--;
   }
