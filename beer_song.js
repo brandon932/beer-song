@@ -24,11 +24,11 @@ Beer.prototype.sing= function(start, last){
   }else {
     end = last;
   }
-  var num = start;
+  // var num = start;
   var string = [];
 
 while(num >= end){
-    console.log(Beer.prototype.verse(num));
+    // console.log(Beer.prototype.verse(num));
     string.push(Beer.prototype.verse(num));
     num--;
   }
