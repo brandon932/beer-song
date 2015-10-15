@@ -24,7 +24,7 @@ Beer.prototype.sing= function(start, last){
   }else {
     end = last;
   }
-  // var num = start;
+  var num = start;
   var string = [];
 
 while(num >= end){
