@@ -8,5 +8,10 @@ node_js:
 services:
   - mongodb
 
+before_script:
+  - npm install -g jasmine-node
+
+
 script:
   - mocha
+  - jasmine-node
