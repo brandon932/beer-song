@@ -13,4 +13,4 @@ before_script:
 
 
 script:
-  - jasmine-node
+  - jasmine-node beer_song_test.spec.js
